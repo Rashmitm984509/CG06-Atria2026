@@ -1,16 +1,11 @@
 package com.tnsif.polymorphism;
 // demo for instance of operator
-
-class Person1{
-	
+class Person1{	
 }
-class Employee extends Person1{
-	
+class Employee extends Person1{	
 }
-class Manager extends Employee{
-	
+class Manager extends Employee{	
 }
-
 public class Instancedemo {
 public static void main(String[] args) {
 	Person1 p=new Person1();
